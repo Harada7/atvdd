@@ -1,0 +1,13 @@
+def inverte_string(string):
+    inverted_string = ""
+
+    for i in range(len(string)-1, -1, -1):
+        inverted_string += string_original[i]
+        
+    return inverted_string
+
+string_original = input("Digite uma string para inverter: ")
+string_invertida = inverte_string(string_original)
+
+print("String original:", string_original)
+print("String invertida:", string_invertida)
